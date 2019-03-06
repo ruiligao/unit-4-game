@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container text-center p-3 mb-2 mt-4 text-primary">
+            <h1> Crystals Collector</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-left text-white">
+                    <h3>How to Play the Crystal Collector Game</h3>
+                    <p class="h5">- You will be given a random number at the start of the game.</p>
+                    <p class="h5">- There are four crystals below. By clicking on a crystal, you will add a specific amount of
+                        points to your total score.</p>
+                    <p class="h5">- You win the game by matching your total score to the random number. You lose the game if your
+                        total score goes above the random number. </p>
+                    <p class="h5">- The value of each crystal is hidden from you until you click on it. </p>
+                    <p class="h5"> - Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 p-4 mt-4 text-center bg-white border border-success">
+                    <div class="h4">Crystals to Collect</div>
+                    <div id="targetCrystals" class="h3"></div>
+                </div>
+                <div class="col-md-3 p-4 mt-4 text-center bg-white border border-success">
+                    <div class="h4">Wins</div>
+                    <div id="wins" class="h3"></div>
+                </div>
+                <div class="col-md-3 p-4 mt-4 text-center bg-white border border-success">
+                    <div class="h4">Loses</div>
+                    <div id="loses" class="h3"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 p-4 mt-4 mb-4 text-center bg-white border border-success">
+                    <div class="h4">Total Collected</div>
+                    <div id="totalCollected" class="h3"></div>
+                </div>
+                <div class="col-md-6 p-4 mt-4 mb-4 text-center bg-white border border-success">
+                    <div class="h4">Message</div>
+                    <div id="message" class="h3 text-primary"></div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <button>
+                        <img id="purple" class="w-75 p-3 mt-4 crystals" src="assets/image/00.png">
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button>
+                        <img id="blue" class="w-75 p-3 mt-4 crystals" src="assets/image/01.jpg">
+                    </button>
+                </div>
+
+                <div class="col-md-2">
+                    <button>
+                        <img id= "red" class="w-75 p-3 mt-4 crystals" src="assets/image/02.jpg">
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <button>
+                        <img id="white" class="w-75 p-3 mt-4 crystals" src="assets/image/4.jpg">
+                    </button>
+                </div>
+                <div class="col-md-2"></div>t6
+
+
+            </di>
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+     <script src="assets/javacript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
