@@ -17,7 +17,6 @@
    ## Link: https://ruiligao.github.io/unit-4-game/ 
    
    ## Built With
-   
      HTML
      CSS
      Bootstrap
